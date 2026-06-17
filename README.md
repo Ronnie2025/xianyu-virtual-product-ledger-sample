@@ -6,6 +6,7 @@
 
 - 免费 CSV 样张: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
 - 字段说明: [`docs/field-guide.md`](docs/field-guide.md)
+- GitHub Pages 落地页: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
 - 在线预览页: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
 
 ## 这个样张解决什么问题

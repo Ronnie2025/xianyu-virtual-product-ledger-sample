@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>闲鱼虚拟资料记账表免费 CSV 样张</title>
+  <meta name="description" content="免费下载闲鱼虚拟资料记账表 CSV 样张，包含订单、平台费、资料成本、售后问题、退款关闭原因、毛利率和周复盘字段。">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="闲鱼虚拟资料记账表免费 CSV 样张">
+  <meta property="og:description" content="给虚拟资料、教程、模板、提示词卖家的订单成本利润复盘样张。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1d2733;
+      --muted: #5c6978;
+      --line: #d8e0e9;
+      --paper: #f7f8fb;
+      --accent: #0a7c86;
+      --accent-dark: #075e65;
+      --warm: #b8501f;
+      --green: #16764a;
+      --white: #ffffff;
+      --shadow: 0 18px 50px rgba(30, 40, 55, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .hero {
+      background:
+        linear-gradient(115deg, rgba(10, 124, 134, 0.93), rgba(16, 84, 92, 0.86)),
+        radial-gradient(circle at 84% 20%, rgba(255, 255, 255, 0.28), transparent 34%),
+        #0a7c86;
+      color: var(--white);
+      padding: 54px 20px 34px;
+    }
+
+    .wrap {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+      gap: 32px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      font-size: 14px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(36px, 5vw, 64px);
+      line-height: 1.06;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 690px;
+      margin: 20px 0 0;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.86);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 12px 18px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      font-weight: 800;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--white);
+      color: var(--accent-dark);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--white);
+    }
+
+    .sheet-visual {
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.96);
+      color: var(--ink);
+      box-shadow: var(--shadow);
+    }
+
+    .sheet-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+      background: #edf5f6;
+      font-weight: 800;
+    }
+
+    .sheet-top span:last-child {
+      color: var(--accent-dark);
+    }
+
+    .sheet-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .sheet-table th,
+    .sheet-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e6ecf2;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    .sheet-table th {
+      background: #f4f7fa;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .profit {
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .loss {
+      color: var(--warm);
+      font-weight: 800;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 1px;
+      background: var(--line);
+    }
+
+    .stat {
+      padding: 15px;
+      background: var(--white);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 22px;
+      color: var(--accent-dark);
+    }
+
+    main {
+      padding: 34px 20px 58px;
+    }
+
+    section {
+      margin: 0 auto 32px;
+    }
+
+    .section-title {
+      margin: 0 0 14px;
+      font-size: 28px;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      min-height: 100%;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--white);
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .field-list {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .field-list span {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--white);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .band {
+      padding: 28px;
+      border-radius: 8px;
+      background: #eaf4f1;
+      border: 1px solid #c9dfd9;
+    }
+
+    .band p {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+
+    .fineprint {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      .hero-grid,
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .field-list,
+      .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .sheet-visual {
+        margin-top: 4px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .hero {
+        padding-top: 38px;
+      }
+
+      .actions,
+      .btn {
+        width: 100%;
+      }
+
+      .field-list,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .sheet-table {
+        display: block;
+        overflow-x: auto;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "闲鱼虚拟资料记账表 CSV 样张",
+    "description": "给闲鱼虚拟资料卖家的订单成本利润复盘 CSV 样张。",
+    "license": "https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/blob/main/LICENSE",
+    "url": "https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/",
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/Ronnie2025/xianyu-virtual-product-ledger-sample/main/samples/xianyu-ledger-sample.csv"
+    },
+    "sameAs": [
+      "https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample",
+      "https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">FREE CSV SAMPLE FOR XIAN YU SELLERS</p>
+        <h1>闲鱼虚拟资料记账表免费 CSV 样张</h1>
+        <p class="lead">给卖模板、教程、提示词、资料包的人用。先把订单、平台费、资料成本、售后问题和交易关闭原因记清楚，再决定要不要升级完整 Excel 模板。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="samples/xianyu-ledger-sample.csv" download>下载免费 CSV</a>
+          <a class="btn btn-secondary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">闲鱼担保购买完整包</a>
+        </div>
+      </div>
+      <div class="sheet-visual" aria-label="记账表样张预览">
+        <div class="sheet-top">
+          <span>订单成本利润复盘</span>
+          <span>17 个字段</span>
+        </div>
+        <table class="sheet-table">
+          <thead>
+            <tr>
+              <th>商品</th>
+              <th>状态</th>
+              <th>到手</th>
+              <th>毛利</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Excel 模板</td>
+              <td>已成交</td>
+              <td>19.78</td>
+              <td class="profit">18.16</td>
+            </tr>
+            <tr>
+              <td>话术包</td>
+              <td>咨询未拍</td>
+              <td>0.00</td>
+              <td class="loss">-2.12</td>
+            </tr>
+            <tr>
+              <td>自测表</td>
+              <td>交易关闭</td>
+              <td>0.00</td>
+              <td class="loss">-1.32</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="stats">
+          <div class="stat"><strong>4</strong>示例订单</div>
+          <div class="stat"><strong>17</strong>复盘字段</div>
+          <div class="stat"><strong>19.90</strong>完整 Excel 包</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap">
+      <h2 class="section-title">先看清每一单有没有真的赚钱</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>订单层</h3>
+          <p>记录成交价、数量、订单状态和交付状态，避免只看拍下金额。</p>
+        </article>
+        <article class="card">
+          <h3>成本层</h3>
+          <p>拆开平台费、资料成本、其他成本，把隐藏成本放回账里。</p>
+        </article>
+        <article class="card">
+          <h3>复盘层</h3>
+          <p>记录售后问题、退款关闭原因和下周动作，让表格直接服务商品页优化。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 class="section-title">CSV 样张字段</h2>
+      <div class="field-list">
+        <span>日期</span>
+        <span>平台</span>
+        <span>商品名</span>
+        <span>成交价</span>
+        <span>平台费</span>
+        <span>资料成本</span>
+        <span>订单状态</span>
+        <span>交付状态</span>
+        <span>售后问题</span>
+        <span>退款关闭原因</span>
+        <span>到手销售额</span>
+        <span>预估毛利</span>
+      </div>
+    </section>
+
+    <section class="wrap band">
+      <h2 class="section-title">需要 Dashboard 和自动计算时再买完整包</h2>
+      <p>完整 Excel 模板包包含 Dashboard、订单流水、成本库存、定价测算、周复盘、发货话术和闲鱼上架文案。免费 CSV 适合先试字段，完整包适合已经开始卖资料并需要固定复盘的人。</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/side-hustle-ledger-excel-pack.html">查看完整包介绍</a>
+        <a class="btn btn-secondary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">打开闲鱼商品</a>
+      </div>
+      <p class="fineprint">边界：不承诺成交、曝光、利润、涨粉、回本或任何经营结果；不提供账号、支付接口、自动赚钱软件，也不引导平台外交易。</p>
+    </section>
+
+    <section class="wrap">
+      <h2 class="section-title">更多公开文件</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>字段说明</h3>
+          <p><a href="docs/field-guide.md">打开 field guide</a></p>
+        </article>
+        <article class="card">
+          <h3>GitHub 仓库</h3>
+          <p><a href="https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample">查看源文件</a></p>
+        </article>
+        <article class="card">
+          <h3>在线样张页</h3>
+          <p><a href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html">打开主站样张页</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

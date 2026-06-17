@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/sitemap.xml
