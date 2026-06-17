@@ -1,6 +1,6 @@
 # Xianyu Virtual Product Ledger Field Guide
 
-This guide explains the minimum fields used in the free CSV sample. It is written for small digital product sellers who need a lightweight order, cost, margin, delivery, and after-sales review table.
+This guide explains the minimum fields used in the free Excel and CSV sample. It is written for small digital product sellers who need a lightweight order, cost, margin, delivery, and after-sales review table.
 
 中文说明：这份字段说明面向闲鱼虚拟资料卖家，用来记录订单、成本、毛利、交付、售后和每周复盘。
 
@@ -37,7 +37,7 @@ Review only four things each week:
 
 ## 5-Minute Test
 
-Before building a full workbook, test the CSV with three records:
+Before building a full workbook, test the free Excel or CSV sample with three records:
 
 1. One paid order.
 2. One inquiry that did not convert.
@@ -49,17 +49,17 @@ If these three records already show a missing cost, confusing buyer question, or
 
 ## Free Sample vs Full Excel Pack
 
-| Item | Free CSV sample | Full Excel pack |
+| Item | Free Excel / CSV sample | Full Excel pack |
 | --- | --- | --- |
 | Core order fields | Yes | Yes |
 | Example rows | Yes | Yes |
-| Dashboard | No | Yes |
+| Dashboard | Basic preview | Full dashboard |
 | Cost and inventory sheet | No | Yes |
 | Pricing calculator | No | Yes |
 | Weekly review sheet | Manual field only | Dedicated worksheet |
 | Listing copy and delivery scripts | No | Yes |
 
-Use the free CSV to confirm the workflow. Use the full Excel pack only if you need dashboard views, structured review sheets, and reusable selling scripts.
+Use the free sample to confirm the workflow. Use the full Excel pack only if you need inventory, pricing, structured review sheets, and reusable selling scripts.
 
 ## Boundary
 

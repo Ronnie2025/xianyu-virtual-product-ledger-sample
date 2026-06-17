@@ -18,4 +18,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/samples/xianyu-ledger-free-sample.xlsx</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/docs/xlsx-dashboard-preview.png</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
