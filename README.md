@@ -8,6 +8,7 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 
 - Free Excel sample: [`samples/xianyu-ledger-free-sample.xlsx`](samples/xianyu-ledger-free-sample.xlsx)
 - Free CSV sample: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
+- GitHub release download: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.17-free-ledger-sample
 - Field guide: [`docs/field-guide.md`](docs/field-guide.md)
 - Dashboard preview: [`docs/xlsx-dashboard-preview.png`](docs/xlsx-dashboard-preview.png)
 - GitHub Pages landing page: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
