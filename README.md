@@ -1,49 +1,61 @@
 # Xianyu Virtual Product Ledger Sample
 
-一个给闲鱼虚拟资料卖家使用的免费记账表样张。它适合记录资料包、提示词、教程、模板、小店商品的订单、平台费、资料成本、售后问题、退款关闭原因和每周复盘动作。
+A free CSV ledger sample for small digital product sellers. It is designed for Xianyu / Goofish virtual products, prompt packs, tutorials, templates, and small creator shops that need a simple way to record orders, platform fees, product costs, after-sales issues, refund or cancellation reasons, and weekly review actions.
 
-## 直接下载
+中文说明：这是一个给闲鱼虚拟资料卖家使用的免费记账表样张。它适合记录资料包、提示词、教程、模板、小店商品的订单、平台费、资料成本、售后问题、退款关闭原因和每周复盘动作。
 
-- 免费 CSV 样张: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
-- 字段说明: [`docs/field-guide.md`](docs/field-guide.md)
-- GitHub Pages 落地页: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
-- 在线预览页: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
+## Download
 
-## 这个样张解决什么问题
+- Free CSV sample: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
+- Field guide: [`docs/field-guide.md`](docs/field-guide.md)
+- GitHub Pages landing page: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
+- Online preview page: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
 
-很多虚拟资料卖家只记成交金额，但真正影响利润的是：
+## What This Solves
 
-- 平台服务费
-- 资料制作成本
-- 素材和工具成本
-- 补发和解释成本
-- 退款或交易关闭原因
-- 哪个 SKU 被问得多、哪个问题导致流失
+Many small digital product sellers only record the sale price. That hides the costs that actually decide whether a product is worth continuing:
 
-这个免费样张只给最小字段和示例数据，方便你判断自己的表该怎么搭。
+- platform fees
+- product creation cost
+- material and tool cost
+- resend, explanation, and support cost
+- refund or cancelled-order reasons
+- which SKU gets questions, conversions, and after-sales friction
 
-## 完整 Excel 模板包
+The sample keeps only the minimum practical fields and example rows, so you can decide whether the workflow fits before building a full workbook.
 
-如果你需要 Dashboard、订单流水、成本库存、定价测算、周复盘和发货话术，可以看完整包：
+## Included Fields
 
-- 商品介绍: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/side-hustle-ledger-excel-pack.html
-- 闲鱼担保购买: https://www.goofish.com/item?id=1057975295736
+The CSV sample includes fields for:
 
-完整包是 19.90 元的可编辑 Excel 模板包。它不承诺成交、曝光、利润、涨粉、回本或任何经营结果。
+- order date, platform, product name, unit price, and quantity
+- platform fee, product cost, and other cost
+- order status and delivery status
+- after-sales question and refund or cancellation reason
+- net sales, total cost, estimated gross profit, gross margin, and review action
 
-## 适合
+## Full Excel Template Pack
 
-- 闲鱼虚拟资料卖家
-- 模板、教程、提示词资料包卖家
-- 小红书、公众号、AI 工具教程类资料卖家
-- 刚开始低价测试 SKU 的副业卖家
+If you need a complete workbook with dashboard, order ledger, cost and inventory sheet, pricing calculator, weekly review sheet, listing copy, and delivery scripts, see the full Excel template pack:
 
-## 不适合
+- Product page: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/side-hustle-ledger-excel-pack.html
+- Xianyu / Goofish purchase link: https://www.goofish.com/item?id=1057975295736
 
-- 想要自动赚钱软件的人
-- 想要账号、支付接口、自动发货脚本的人
-- 想要平台外交易或绕开平台规则的人
-- 需要企业级进销存系统的人
+The full pack is a separate paid editable Excel template. It does not promise sales, traffic, profit, followers, payback, or any business outcome.
+
+## Best For
+
+- Xianyu / Goofish virtual product sellers
+- template, tutorial, and prompt-pack sellers
+- Xiaohongshu, WeChat, and AI-tool tutorial creators
+- side-hustle sellers testing low-priced SKUs
+
+## Not For
+
+- automatic money-making software
+- accounts, API keys, payment accounts, or auto-delivery bots
+- off-platform transactions or platform-rule bypasses
+- enterprise inventory or accounting systems
 
 ## License
 

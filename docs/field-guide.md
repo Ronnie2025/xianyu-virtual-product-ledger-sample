@@ -1,36 +1,40 @@
-# 闲鱼虚拟资料记账字段说明
+# Xianyu Virtual Product Ledger Field Guide
 
-## 最小字段
+This guide explains the minimum fields used in the free CSV sample. It is written for small digital product sellers who need a lightweight order, cost, margin, delivery, and after-sales review table.
 
-| 字段 | 说明 | 为什么要记 |
+中文说明：这份字段说明面向闲鱼虚拟资料卖家，用来记录订单、成本、毛利、交付、售后和每周复盘。
+
+## Minimum Fields
+
+| Field | 中文字段 | What It Means | Why It Matters |
 | --- | --- | --- |
-| 日期 | 订单或咨询发生日期 | 用于按天、按周复盘 |
-| 平台 | 闲鱼、小红书、公众号、小店等 | 区分不同渠道表现 |
-| 商品名 | 资料包或模板包名称 | 看每个 SKU 的成交和售后 |
-| 成交价 | 买家实际拍下价格 | 计算销售额 |
-| 数量 | 成交份数 | 低价资料通常为 1 |
-| 平台费 | 平台服务费或支付扣费 | 避免高估利润 |
-| 资料成本 | 制作、整理、素材和工具成本 | 虚拟资料也有隐性成本 |
-| 其他成本 | 流量、包装、人工等额外成本 | 看清真实到手利润 |
-| 订单状态 | 已成交、咨询未拍、交易关闭等 | 分析转化损耗 |
-| 交付状态 | 未发货、已发货、已补发等 | 避免漏发 |
-| 售后问题 | 买家问什么、卡在哪里 | 反推详情页和发货话术 |
-| 退款关闭原因 | 买家关闭、描述不清、价格异议等 | 反推商品页修改优先级 |
-| 到手销售额 | 成交价 x 数量 - 平台费 | 看真实收入 |
-| 总成本 | 资料成本 + 其他成本 + 平台费 | 统一计算成本 |
-| 预估毛利 | 到手销售额 - 资料成本 - 其他成本 | 判断 SKU 是否值得继续 |
-| 毛利率 | 预估毛利 / 成交额 | 对比不同价格和 SKU |
-| 复盘动作 | 下周要改什么 | 把记录变成行动 |
+| Date | 日期 | Order or inquiry date | Enables daily and weekly review |
+| Platform | 平台 | Xianyu, Xiaohongshu, WeChat, shop, etc. | Separates channel performance |
+| Product | 商品名 | Digital pack, tutorial, template, or SKU name | Tracks sales and support by SKU |
+| Price | 成交价 | Actual buyer price | Calculates gross sales |
+| Quantity | 数量 | Number of units sold | Usually 1 for low-ticket digital products |
+| Platform fee | 平台费 | Marketplace or payment fee | Prevents overestimating profit |
+| Product cost | 资料成本 | Creation, curation, material, and tool cost | Digital products still have hidden cost |
+| Other cost | 其他成本 | Traffic, packaging, labor, or extra cost | Shows real net margin |
+| Order status | 订单状态 | Paid, inquiry only, cancelled, refunded, etc. | Shows conversion loss |
+| Delivery status | 交付状态 | Not delivered, delivered, resent, etc. | Prevents missed fulfillment |
+| After-sales question | 售后问题 | What buyers ask or struggle with | Improves listing copy and delivery scripts |
+| Refund/cancel reason | 退款关闭原因 | Why the order was refunded or cancelled | Prioritizes product-page fixes |
+| Net sales | 到手销售额 | Price x quantity - platform fee | Shows usable revenue |
+| Total cost | 总成本 | Product cost + other cost + platform fee | Normalizes cost accounting |
+| Estimated gross profit | 预估毛利 | Net sales - product cost - other cost | Decides whether a SKU is worth continuing |
+| Gross margin | 毛利率 | Estimated gross profit / sales | Compares prices and SKUs |
+| Review action | 复盘动作 | What to change next week | Turns records into action |
 
-## 每周复盘
+## Weekly Review
 
-每周只看四件事：
+Review only four things each week:
 
-1. 哪个商品被问得最多。
-2. 哪个商品成交最多。
-3. 哪个问题导致交易关闭或退款。
-4. 下周只改一个最影响成交的地方。
+1. Which product received the most questions?
+2. Which product converted the most orders?
+3. Which question caused cancellations or refunds?
+4. What is the one listing, cover, price, or delivery change to make next week?
 
-## 边界
+## Boundary
 
-这个样张只用于记录和复盘，不承诺成交、曝光、利润、回本或任何经营结果。不要把它当作自动赚钱软件，也不要用它绕开平台规则。
+This sample is only for order tracking and review. It does not promise sales, traffic, profit, payback, or any business outcome. Do not use it as automatic money-making software or to bypass marketplace rules.
