@@ -15,6 +15,14 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 - Online preview page: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
 - One-order CSV builder: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/#csv-builder
 
+## CSV Directory Quick Path
+
+If you arrived from a CSV tools directory, start with the CSV file before looking at the full Excel pack:
+
+1. Download [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv).
+2. Fill one real order in the online CSV builder.
+3. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, and delivery scripts.
+
 ## 5-Minute Trial
 
 Use the free Excel or CSV sample before buying anything:

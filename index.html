@@ -213,6 +213,10 @@
       gap: 14px;
     }
 
+    .step-grid {
+      margin-top: 16px;
+    }
+
     .card {
       min-height: 100%;
       padding: 20px;
@@ -472,6 +476,14 @@
         },
         {
           "@type": "Question",
+          "name": "只想先看 CSV 文件可以吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。先下载 CSV 样张或用页面上的一单 CSV 生成器填一笔真实订单，确认字段能记录成交价、平台费、资料成本、订单状态、售后问题、退款原因和复盘动作后，再决定是否需要完整 Excel 包。"
+          }
+        },
+        {
+          "@type": "Question",
           "name": "这份表格承诺赚钱吗？",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -588,6 +600,30 @@
           <h3>复盘层</h3>
           <p>记录售后问题、退款关闭原因和下周动作，让表格直接服务商品页优化。</p>
         </article>
+      </div>
+    </section>
+
+    <section class="wrap band">
+      <h2 class="section-title">从 CSV 目录进来，先走这 3 步</h2>
+      <p>如果你只是想确认这份样张是不是能用，不用先看完整 Excel 包。先下载 CSV，用一笔订单测试字段，再决定要不要升级到 19.90 元完整模板。</p>
+      <div class="grid step-grid">
+        <article class="card">
+          <h3>1. 下载 CSV 样张</h3>
+          <p>先看字段：成交价、平台费、资料成本、订单状态、售后问题、退款关闭原因和复盘动作。</p>
+        </article>
+        <article class="card">
+          <h3>2. 生成一行真实订单</h3>
+          <p>用下面的一单 CSV 生成器，把最近一笔成交或关闭订单算清楚。</p>
+        </article>
+        <article class="card">
+          <h3>3. 需要持续经营再买</h3>
+          <p>如果你需要 Dashboard、成本库存、定价测算、周复盘和发货话术，再拍完整 Excel 包。</p>
+        </article>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="samples/xianyu-ledger-sample.csv" download>下载 CSV 样张</a>
+        <a class="btn btn-secondary" href="#csv-builder">生成一行 CSV</a>
+        <a class="btn btn-secondary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">闲鱼买完整 Excel 包</a>
       </div>
     </section>
 
