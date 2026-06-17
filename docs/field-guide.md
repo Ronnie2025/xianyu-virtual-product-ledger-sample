@@ -35,6 +35,32 @@ Review only four things each week:
 3. Which question caused cancellations or refunds?
 4. What is the one listing, cover, price, or delivery change to make next week?
 
+## 5-Minute Test
+
+Before building a full workbook, test the CSV with three records:
+
+1. One paid order.
+2. One inquiry that did not convert.
+3. One cancelled, closed, or refunded order.
+
+If these three records already show a missing cost, confusing buyer question, or weak listing promise, the ledger is doing its job. The goal is not perfect accounting; the goal is to turn small selling signals into one concrete improvement action.
+
+中文使用建议：先填 3 条真实记录，再看有没有漏算平台费、资料成本、工具成本和售后解释成本。最后只选一个动作改，不要一次改所有东西。
+
+## Free Sample vs Full Excel Pack
+
+| Item | Free CSV sample | Full Excel pack |
+| --- | --- | --- |
+| Core order fields | Yes | Yes |
+| Example rows | Yes | Yes |
+| Dashboard | No | Yes |
+| Cost and inventory sheet | No | Yes |
+| Pricing calculator | No | Yes |
+| Weekly review sheet | Manual field only | Dedicated worksheet |
+| Listing copy and delivery scripts | No | Yes |
+
+Use the free CSV to confirm the workflow. Use the full Excel pack only if you need dashboard views, structured review sheets, and reusable selling scripts.
+
 ## Boundary
 
 This sample is only for order tracking and review. It does not promise sales, traffic, profit, payback, or any business outcome. Do not use it as automatic money-making software or to bypass marketplace rules.
