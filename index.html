@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>闲鱼虚拟资料记账表 Excel/CSV 免费样张 | 订单成本毛利售后复盘</title>
-  <meta name="description" content="下载闲鱼虚拟资料记账表 Excel / CSV 免费样张，适合卖教程、模板、提示词和资料包的小店记录订单、平台费、成本、售后问题、退款关闭原因、毛利率和每周复盘动作。">
+  <meta name="description" content="下载闲鱼虚拟资料记账表 Excel / CSV 免费样张，在线生成一行可下载 CSV，适合卖教程、模板、提示词和资料包的小店记录订单、平台费、成本、售后问题、退款关闭原因、毛利率和每周复盘动作。">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a7c86'/%3E%3Cpath d='M18 18h28v7H18zm0 11h28v7H18zm0 11h18v7H18z' fill='white'/%3E%3C/svg%3E">
   <meta property="og:title" content="闲鱼虚拟资料记账表 Excel/CSV 免费样张">
   <meta property="og:description" content="给虚拟资料、教程、模板和提示词卖家的订单、成本、毛利、售后与退款复盘样张。">
   <meta property="og:type" content="website">
@@ -260,6 +261,84 @@
       color: var(--muted);
     }
 
+    .builder {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .builder-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .builder label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .builder input,
+    .builder select {
+      min-width: 0;
+      width: 100%;
+      min-height: 42px;
+      padding: 10px 11px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: #fbfcfd;
+      font: inherit;
+    }
+
+    .result-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .result-pill {
+      padding: 14px;
+      border-radius: 8px;
+      background: #f3f8f6;
+      border: 1px solid #d8e9e4;
+    }
+
+    .result-pill span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .result-pill strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 22px;
+      color: var(--accent-dark);
+    }
+
+    .csv-output {
+      width: 100%;
+      min-height: 132px;
+      margin-top: 16px;
+      padding: 13px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #101820;
+      color: #e7f6f2;
+      overflow: auto;
+      font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      white-space: pre;
+    }
+
     .preview-image {
       display: block;
       width: 100%;
@@ -282,7 +361,9 @@
       }
 
       .field-list,
-      .stats {
+      .stats,
+      .builder-grid,
+      .result-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
@@ -302,7 +383,9 @@
       }
 
       .field-list,
-      .stats {
+      .stats,
+      .builder-grid,
+      .result-grid {
         grid-template-columns: 1fr;
       }
 
@@ -393,6 +476,20 @@
           }
         }
       ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "闲鱼虚拟资料订单 CSV 生成器",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "输入成交价、平台费、资料成本和订单状态，生成一行可下载的闲鱼虚拟资料记账 CSV。",
+      "url": "https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/#csv-builder",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      }
     }
   ]
   </script>
@@ -405,6 +502,7 @@
         <h1>闲鱼虚拟资料记账表免费 Excel / CSV 样张</h1>
         <p class="lead">给卖模板、教程、提示词、资料包的人用。先用 Excel 或 CSV 把订单、平台费、资料成本、售后问题和交易关闭原因记清楚，再决定要不要升级完整 Excel 模板。</p>
         <div class="actions">
+          <a class="btn btn-primary" href="#csv-builder">在线生成一行 CSV</a>
           <a class="btn btn-primary" href="samples/xianyu-ledger-free-sample.xlsx" download>下载免费 Excel 样张</a>
           <a class="btn btn-secondary" href="samples/xianyu-ledger-sample.csv" download>下载 CSV</a>
           <a class="btn btn-secondary" href="https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.17-free-ledger-sample">GitHub Release 下载</a>
@@ -497,6 +595,63 @@
       </div>
     </section>
 
+    <section class="wrap" id="csv-builder">
+      <h2 class="section-title">在线生成一行订单 CSV</h2>
+      <div class="builder">
+        <p>先用一笔真实或模拟订单算清楚：成交价扣掉平台费、资料成本和其他成本后，低价资料包还剩多少毛利。生成结果可以直接复制，也可以下载成 CSV。</p>
+        <div class="builder-grid">
+          <label>
+            商品名
+            <input id="productName" value="副业小店记账表Excel模板" autocomplete="off">
+          </label>
+          <label>
+            成交价
+            <input id="price" type="number" min="0" step="0.01" value="19.90">
+          </label>
+          <label>
+            数量
+            <input id="quantity" type="number" min="1" step="1" value="1">
+          </label>
+          <label>
+            平台费率 %
+            <input id="feeRate" type="number" min="0" step="0.1" value="0.6">
+          </label>
+          <label>
+            资料成本
+            <input id="productCost" type="number" min="0" step="0.01" value="1.50">
+          </label>
+          <label>
+            其他成本
+            <input id="otherCost" type="number" min="0" step="0.01" value="0.00">
+          </label>
+          <label>
+            订单状态
+            <select id="orderStatus">
+              <option>已成交</option>
+              <option>咨询未拍</option>
+              <option>交易关闭</option>
+              <option>退款中</option>
+            </select>
+          </label>
+          <label>
+            售后问题
+            <input id="supportIssue" value="无" autocomplete="off">
+          </label>
+        </div>
+        <div class="result-grid" aria-live="polite">
+          <div class="result-pill"><span>到手销售额</span><strong id="netSales">¥19.78</strong></div>
+          <div class="result-pill"><span>总成本</span><strong id="totalCost">¥1.62</strong></div>
+          <div class="result-pill"><span>预估毛利</span><strong id="grossProfit">¥18.16</strong></div>
+          <div class="result-pill"><span>毛利率</span><strong id="grossMargin">91.81%</strong></div>
+        </div>
+        <pre class="csv-output" id="csvOutput"></pre>
+        <div class="actions">
+          <a class="btn btn-primary" id="downloadCsv" href="#" download="xianyu-ledger-one-order.csv">下载这行 CSV</a>
+          <a class="btn btn-secondary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">需要完整表格时去闲鱼购买</a>
+        </div>
+      </div>
+    </section>
+
     <section class="wrap">
       <h2 class="section-title">5 分钟试用这份 CSV</h2>
       <div class="grid">
@@ -562,5 +717,99 @@
       </div>
     </section>
   </main>
+  <script>
+    const csvHeader = [
+      "日期",
+      "平台",
+      "商品名",
+      "成交价",
+      "数量",
+      "平台费",
+      "资料成本",
+      "其他成本",
+      "订单状态",
+      "交付状态",
+      "售后问题",
+      "退款关闭原因",
+      "到手销售额",
+      "总成本",
+      "预估毛利",
+      "毛利率",
+      "复盘动作"
+    ];
+
+    const fields = {
+      productName: document.getElementById("productName"),
+      price: document.getElementById("price"),
+      quantity: document.getElementById("quantity"),
+      feeRate: document.getElementById("feeRate"),
+      productCost: document.getElementById("productCost"),
+      otherCost: document.getElementById("otherCost"),
+      orderStatus: document.getElementById("orderStatus"),
+      supportIssue: document.getElementById("supportIssue")
+    };
+
+    const money = (value) => Number.isFinite(value) ? value.toFixed(2) : "0.00";
+    const asNumber = (input) => Number.parseFloat(input.value) || 0;
+    const escapeCsv = (value) => {
+      const text = String(value);
+      return /[",\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
+    };
+
+    function buildCsv() {
+      const today = new Date().toISOString().slice(0, 10);
+      const price = asNumber(fields.price);
+      const quantity = Math.max(1, Math.round(asNumber(fields.quantity)));
+      const feeRate = asNumber(fields.feeRate) / 100;
+      const productCost = asNumber(fields.productCost);
+      const otherCost = asNumber(fields.otherCost);
+      const status = fields.orderStatus.value;
+      const isPaid = status === "已成交";
+      const platformFee = isPaid ? price * quantity * feeRate : 0;
+      const netSales = isPaid ? price * quantity - platformFee : 0;
+      const totalCost = platformFee + productCost + otherCost;
+      const grossProfit = netSales - totalCost;
+      const grossMargin = netSales > 0 ? `${((grossProfit / netSales) * 100).toFixed(2)}%` : "0.00%";
+      const reviewAction = grossProfit >= 0 ? "保留标题并继续观察咨询词" : "检查定价、售后边界和资料成本";
+      const row = [
+        today,
+        "闲鱼",
+        fields.productName.value.trim() || "虚拟资料商品",
+        money(price),
+        quantity,
+        money(platformFee),
+        money(productCost),
+        money(otherCost),
+        status,
+        isPaid ? "已发货" : "未发货",
+        fields.supportIssue.value.trim() || "无",
+        status === "交易关闭" ? "买家关闭" : "无",
+        money(netSales),
+        money(totalCost),
+        money(grossProfit),
+        grossMargin,
+        reviewAction
+      ];
+      const csv = [csvHeader, row].map((line) => line.map(escapeCsv).join(",")).join("\n");
+      document.getElementById("netSales").textContent = `¥${money(netSales)}`;
+      document.getElementById("totalCost").textContent = `¥${money(totalCost)}`;
+      document.getElementById("grossProfit").textContent = `¥${money(grossProfit)}`;
+      document.getElementById("grossMargin").textContent = grossMargin;
+      document.getElementById("csvOutput").textContent = csv;
+      const blob = new Blob([`\ufeff${csv}\n`], { type: "text/csv;charset=utf-8" });
+      const link = document.getElementById("downloadCsv");
+      if (link.dataset.url) {
+        URL.revokeObjectURL(link.dataset.url);
+      }
+      link.dataset.url = URL.createObjectURL(blob);
+      link.href = link.dataset.url;
+    }
+
+    Object.values(fields).forEach((field) => {
+      field.addEventListener("input", buildCsv);
+      field.addEventListener("change", buildCsv);
+    });
+    buildCsv();
+  </script>
 </body>
 </html>

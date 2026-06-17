@@ -13,6 +13,7 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 - Dashboard preview: [`docs/xlsx-dashboard-preview.png`](docs/xlsx-dashboard-preview.png)
 - GitHub Pages landing page: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
 - Online preview page: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
+- One-order CSV builder: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/#csv-builder
 
 ## 5-Minute Trial
 
@@ -21,6 +22,8 @@ Use the free Excel or CSV sample before buying anything:
 1. Fill in three real records: one paid order, one inquiry that did not convert, and one cancelled or refunded order.
 2. Add the hidden costs you usually ignore: platform fee, material cost, tool cost, extra explanation time, resend cost, or support cost.
 3. Look at the refund or cancellation reason, then write one review action for next week.
+
+You can also use the landing page's one-order CSV builder to enter a product name, sale price, platform fee rate, product cost, other cost, and order status. It generates one downloadable CSV row with net sales, total cost, estimated gross profit, gross margin, and a review action.
 
 中文试用方式：先填 3 条真实记录，不需要整理全部历史订单。只要能看清成交价、平台费、资料成本、售后问题、退款关闭原因和下一步动作，就说明这套字段适合你的虚拟资料小店。
 
@@ -41,6 +44,7 @@ The sample keeps only the minimum practical fields, example rows, and a lightwei
 
 - whether the field set matches your selling workflow
 - whether the Excel or CSV sample is easy enough to update after each order
+- whether a one-order CSV row is enough to reveal hidden cost and margin problems
 - whether after-sales questions and refund reasons can point to listing-page fixes
 - whether your low-priced SKU still has gross margin after platform fees and support cost
 
