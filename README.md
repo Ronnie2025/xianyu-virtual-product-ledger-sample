@@ -6,9 +6,11 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 
 ## Download
 
+- Free trial ZIP pack: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/download/v2026.06.18-trial-pack/xianyu-ledger-free-trial-pack-20260618.zip
 - Free Excel sample: [`samples/xianyu-ledger-free-sample.xlsx`](samples/xianyu-ledger-free-sample.xlsx)
 - Free CSV sample: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
-- GitHub release download: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.17-free-ledger-sample
+- GitHub release download: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.18-trial-pack
+- Start here: [`docs/start-here.md`](docs/start-here.md)
 - Field guide: [`docs/field-guide.md`](docs/field-guide.md)
 - Dashboard preview: [`docs/xlsx-dashboard-preview.png`](docs/xlsx-dashboard-preview.png)
 - GitHub Pages landing page: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
@@ -19,9 +21,10 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 
 If you arrived from a CSV tools directory, start with the CSV file before looking at the full Excel pack:
 
-1. Download [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv).
-2. Fill one real order in the online CSV builder.
-3. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, and delivery scripts.
+1. Download the trial ZIP pack if you want Excel, CSV, field guide, and preview in one folder.
+2. Download [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv) if you only need the raw CSV.
+3. Fill one real order in the online CSV builder.
+4. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, and delivery scripts.
 
 ## 5-Minute Trial
 
