@@ -35,6 +35,8 @@ Review only four things each week:
 3. Which question caused cancellations or refunds?
 4. What is the one listing, cover, price, or delivery change to make next week?
 
+For a dedicated weekly review row, see [`weekly-review-template.md`](weekly-review-template.md) and [`../samples/weekly-review-sample.csv`](../samples/weekly-review-sample.csv).
+
 ## 5-Minute Test
 
 Before building a full workbook, test the free Excel or CSV sample with three records:

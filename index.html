@@ -437,11 +437,18 @@
           "@type": "DataDownload",
           "encodingFormat": "text/csv",
           "contentUrl": "https://raw.githubusercontent.com/Ronnie2025/xianyu-virtual-product-ledger-sample/main/samples/xianyu-ledger-sample.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/Ronnie2025/xianyu-virtual-product-ledger-sample/main/samples/weekly-review-sample.csv"
         }
       ],
       "sameAs": [
         "https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample",
-        "https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html"
+        "https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html",
+        "https://ronnie2025.github.io/ai-agent-workbench-starter-pack/weekly-review-excel-template.html",
+        "https://gist.github.com/Ronnie2025/3736aec6940fc68210ac615816f1e407"
       ]
     },
     {
@@ -537,6 +544,7 @@
           <a class="btn btn-primary" href="#csv-builder">在线生成一行 CSV</a>
           <a class="btn btn-primary" href="samples/xianyu-ledger-free-sample.xlsx" download>下载免费 Excel 样张</a>
           <a class="btn btn-secondary" href="samples/xianyu-ledger-sample.csv" download>下载 CSV</a>
+          <a class="btn btn-secondary" href="samples/weekly-review-sample.csv" download>下载周复盘 CSV</a>
           <a class="btn btn-secondary" href="https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.18-trial-pack">GitHub Release 下载</a>
           <a class="btn btn-secondary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">闲鱼担保购买完整包</a>
         </div>
@@ -624,6 +632,7 @@
       <div class="actions">
         <a class="btn btn-primary" href="https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/download/v2026.06.18-trial-pack/xianyu-ledger-free-trial-pack-20260618.zip">下载 ZIP 试用包</a>
         <a class="btn btn-primary" href="samples/xianyu-ledger-sample.csv" download>下载 CSV 样张</a>
+        <a class="btn btn-secondary" href="docs/weekly-review-template.md">看周复盘模板</a>
         <a class="btn btn-secondary" href="#csv-builder">生成一行 CSV</a>
         <a class="btn btn-secondary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">闲鱼买完整 Excel 包</a>
       </div>
@@ -649,6 +658,31 @@
         <span>退款关闭原因</span>
         <span>到手销售额</span>
         <span>预估毛利</span>
+      </div>
+    </section>
+
+    <section class="wrap band">
+      <h2 class="section-title">新增：数字产品卖家周复盘 CSV</h2>
+      <p>如果你已经有咨询、成交、退款或交易关闭，每周只需要先填一行：本周销售额、本周毛利、最高毛利商品、主要咨询问题、退款/关闭原因和下周动作。这个公开样张对应完整包里的周复盘 worksheet。</p>
+      <div class="grid step-grid">
+        <article class="card">
+          <h3>周复盘说明</h3>
+          <p>字段解释和使用方法已经写成 Markdown，适合从 GitHub 搜索或 CSV 目录直接阅读。</p>
+        </article>
+        <article class="card">
+          <h3>周复盘 CSV</h3>
+          <p>一行样张可直接下载，字段包括周次、销售额、毛利、咨询问题、关闭原因和下周动作。</p>
+        </article>
+        <article class="card">
+          <h3>在线生成器</h3>
+          <p>需要试算毛利率、咨询成交率和关闭占比时，可以打开在线周复盘生成器。</p>
+        </article>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="docs/weekly-review-template.md">打开周复盘说明</a>
+        <a class="btn btn-primary" href="samples/weekly-review-sample.csv" download>下载周复盘 CSV</a>
+        <a class="btn btn-secondary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/weekly-review-excel-template.html">打开在线周复盘生成器</a>
+        <a class="btn btn-secondary" href="https://gist.github.com/Ronnie2025/3736aec6940fc68210ac615816f1e407">打开 Gist 镜像</a>
       </div>
     </section>
 
@@ -770,6 +804,10 @@
         <article class="card">
           <h3>字段说明</h3>
           <p><a href="docs/field-guide.md">打开 field guide</a></p>
+        </article>
+        <article class="card">
+          <h3>周复盘模板</h3>
+          <p><a href="docs/weekly-review-template.md">打开 weekly review guide</a></p>
         </article>
         <article class="card">
           <h3>GitHub 仓库</h3>

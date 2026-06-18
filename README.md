@@ -9,13 +9,16 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 - Free trial ZIP pack: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/download/v2026.06.18-trial-pack/xianyu-ledger-free-trial-pack-20260618.zip
 - Free Excel sample: [`samples/xianyu-ledger-free-sample.xlsx`](samples/xianyu-ledger-free-sample.xlsx)
 - Free CSV sample: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
+- Free weekly review CSV: [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv)
 - GitHub release download: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.18-trial-pack
 - Start here: [`docs/start-here.md`](docs/start-here.md)
 - Field guide: [`docs/field-guide.md`](docs/field-guide.md)
+- Weekly review guide: [`docs/weekly-review-template.md`](docs/weekly-review-template.md)
 - Dashboard preview: [`docs/xlsx-dashboard-preview.png`](docs/xlsx-dashboard-preview.png)
 - GitHub Pages landing page: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
 - Online preview page: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
 - One-order CSV builder: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/#csv-builder
+- Online weekly review generator: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/weekly-review-excel-template.html
 
 ## CSV Directory Quick Path
 
@@ -23,8 +26,9 @@ If you arrived from a CSV tools directory, start with the CSV file before lookin
 
 1. Download the trial ZIP pack if you want Excel, CSV, field guide, and preview in one folder.
 2. Download [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv) if you only need the raw CSV.
-3. Fill one real order in the online CSV builder.
-4. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, and delivery scripts.
+3. Download [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv) if you want the weekly review row only.
+4. Fill one real order in the online CSV builder.
+5. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, and delivery scripts.
 
 ## 5-Minute Trial
 
@@ -37,6 +41,8 @@ Use the free Excel or CSV sample before buying anything:
 You can also use the landing page's one-order CSV builder to enter a product name, sale price, platform fee rate, product cost, other cost, and order status. It generates one downloadable CSV row with net sales, total cost, estimated gross profit, gross margin, and a review action.
 
 中文试用方式：先填 3 条真实记录，不需要整理全部历史订单。只要能看清成交价、平台费、资料成本、售后问题、退款关闭原因和下一步动作，就说明这套字段适合你的虚拟资料小店。
+
+For weekly review, use [`docs/weekly-review-template.md`](docs/weekly-review-template.md) and [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv) to record weekly sales, gross profit, top-margin product, main buyer question, refund or closed-order reason, and one next-week action.
 
 ## What This Solves
 

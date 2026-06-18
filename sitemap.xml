@@ -19,8 +19,20 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/docs/weekly-review-template.md</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/samples/xianyu-ledger-sample.csv</loc>
     <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/samples/weekly-review-sample.csv</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

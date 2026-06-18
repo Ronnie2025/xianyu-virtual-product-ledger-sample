@@ -7,6 +7,8 @@
 - `xianyu-ledger-free-sample.xlsx`: Excel sample with a basic dashboard preview, sample rows, and field notes.
 - `xianyu-ledger-sample.csv`: CSV sample for quick testing or importing into another spreadsheet.
 - `field-guide.md`: field-by-field explanation for order, cost, delivery, support, refund, margin, and review action.
+- `weekly-review-template.md`: weekly review guide for sales, gross profit, buyer questions, refund or closed-order reasons, and next-week actions.
+- `weekly-review-sample.csv`: one-row weekly review CSV sample.
 - `xlsx-dashboard-preview.png`: visual preview of the workbook direction.
 
 ## 5-Minute Test
@@ -18,6 +20,8 @@
 5. Write only one review action for next week: change title, cover, description, price, delivery script, or refund boundary.
 
 If three records already reveal a missing cost, repeated buyer question, or weak listing promise, the ledger is useful enough to keep using.
+
+Weekly review shortcut: open `weekly-review-template.md` and fill `weekly-review-sample.csv` once every weekend. The goal is not perfect accounting; the goal is to pick one next-week action based on real buyer questions and closed-order reasons.
 
 ## When to Buy the Full Pack
 
