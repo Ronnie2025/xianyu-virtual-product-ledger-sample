@@ -21,6 +21,7 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 - Online preview page: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
 - One-order CSV builder: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/#csv-builder
 - Online weekly review generator: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/weekly-review-excel-template.html
+- Purchase note to copy before buying on Goofish: `我要副业小店记账表Excel模板，拍下后请发送ZIP压缩包。`
 
 ## CSV Directory Quick Path
 

@@ -120,6 +120,47 @@
       color: var(--white);
     }
 
+    button.btn {
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .purchase-note {
+      margin-top: 18px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.11);
+    }
+
+    .purchase-note strong,
+    .purchase-note span {
+      display: block;
+    }
+
+    .purchase-note strong {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .purchase-note span {
+      margin-top: 5px;
+      font-weight: 800;
+    }
+
+    .purchase-note .actions {
+      margin-top: 12px;
+    }
+
+    .copy-status {
+      display: block;
+      min-height: 20px;
+      margin-top: 8px;
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
     .sheet-visual {
       overflow: hidden;
       border: 1px solid rgba(255, 255, 255, 0.26);
@@ -555,6 +596,14 @@
           <a class="btn btn-secondary" href="https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.18-trial-pack">GitHub Release 下载</a>
           <a class="btn btn-secondary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">闲鱼担保购买完整包</a>
         </div>
+        <div class="purchase-note">
+          <strong>拍下前可直接发这句备注</strong>
+          <span>我要副业小店记账表Excel模板，拍下后请发送ZIP压缩包。</span>
+          <div class="actions">
+            <button class="btn btn-secondary" type="button" data-copy-note>复制拍下备注</button>
+          </div>
+          <em class="copy-status" data-copy-status></em>
+        </div>
       </div>
       <div class="sheet-visual" aria-label="记账表样张预览">
         <div class="sheet-top">
@@ -781,6 +830,7 @@
           <p>免费 Excel / CSV 样张适合先试一两单。完整 19.90 元 Excel 包增加 Dashboard、订单流水、成本库存、定价测算、周复盘、发货话术和闲鱼上架文案，适合已经开始卖资料并需要固定复盘的人。</p>
           <div class="actions">
             <a class="btn btn-primary" href="https://www.goofish.com/item?id=1057975295736" rel="nofollow">19.90 元闲鱼担保购买完整包</a>
+            <button class="btn btn-secondary" type="button" data-copy-note>复制拍下备注</button>
             <a class="btn btn-secondary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/side-hustle-ledger-excel-pack.html">查看完整包包含什么</a>
           </div>
         </div>
@@ -953,6 +1003,38 @@
       field.addEventListener("change", buildCsv);
     });
     buildCsv();
+
+    const purchaseNote = "我要副业小店记账表Excel模板，拍下后请发送ZIP压缩包。";
+    const setCopyStatus = (message) => {
+      document.querySelectorAll("[data-copy-status]").forEach((node) => {
+        node.textContent = message;
+      });
+    };
+    const copyText = async (text) => {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return;
+      }
+      const area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "fixed";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      document.execCommand("copy");
+      area.remove();
+    };
+    document.querySelectorAll("[data-copy-note]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        try {
+          await copyText(purchaseNote);
+          setCopyStatus("已复制，去闲鱼拍下时直接粘贴。");
+        } catch (error) {
+          setCopyStatus("复制失败，请手动复制上方备注。");
+        }
+      });
+    });
   </script>
 </body>
 </html>
