@@ -37,6 +37,8 @@ Review only four things each week:
 
 For a dedicated weekly review row, see [`weekly-review-template.md`](weekly-review-template.md) and [`../samples/weekly-review-sample.csv`](../samples/weekly-review-sample.csv).
 
+For pre-sale buyer questions, see [`buyer-inquiry-log-template.md`](buyer-inquiry-log-template.md) and [`../samples/buyer-inquiry-log-sample.csv`](../samples/buyer-inquiry-log-sample.csv). It is for recording price objections, refund questions, sample requests, fit questions, promised-result concerns, and one next review action.
+
 ## 5-Minute Test
 
 Before building a full workbook, test the free Excel or CSV sample with three records:

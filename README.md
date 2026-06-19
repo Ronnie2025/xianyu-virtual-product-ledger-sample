@@ -10,10 +10,12 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 - Free Excel sample: [`samples/xianyu-ledger-free-sample.xlsx`](samples/xianyu-ledger-free-sample.xlsx)
 - Free CSV sample: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
 - Free weekly review CSV: [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv)
+- Free buyer inquiry log CSV: [`samples/buyer-inquiry-log-sample.csv`](samples/buyer-inquiry-log-sample.csv)
 - GitHub release download: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/tag/v2026.06.18-trial-pack
 - Start here: [`docs/start-here.md`](docs/start-here.md)
 - Field guide: [`docs/field-guide.md`](docs/field-guide.md)
 - Weekly review guide: [`docs/weekly-review-template.md`](docs/weekly-review-template.md)
+- Buyer inquiry log guide: [`docs/buyer-inquiry-log-template.md`](docs/buyer-inquiry-log-template.md)
 - Dashboard preview: [`docs/xlsx-dashboard-preview.png`](docs/xlsx-dashboard-preview.png)
 - GitHub Pages landing page: https://ronnie2025.github.io/xianyu-virtual-product-ledger-sample/
 - Online preview page: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-ledger-sample.html
@@ -27,8 +29,9 @@ If you arrived from a CSV tools directory, start with the CSV file before lookin
 1. Download the trial ZIP pack if you want Excel, CSV, field guide, and preview in one folder.
 2. Download [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv) if you only need the raw CSV.
 3. Download [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv) if you want the weekly review row only.
-4. Fill one real order in the online CSV builder.
-5. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, and delivery scripts.
+4. Download [`samples/buyer-inquiry-log-sample.csv`](samples/buyer-inquiry-log-sample.csv) if you want to record buyer questions before they buy.
+5. Fill one real order in the online CSV builder.
+6. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, buyer inquiry review, and delivery scripts.
 
 ## 5-Minute Trial
 
@@ -43,6 +46,8 @@ You can also use the landing page's one-order CSV builder to enter a product nam
 中文试用方式：先填 3 条真实记录，不需要整理全部历史订单。只要能看清成交价、平台费、资料成本、售后问题、退款关闭原因和下一步动作，就说明这套字段适合你的虚拟资料小店。
 
 For weekly review, use [`docs/weekly-review-template.md`](docs/weekly-review-template.md) and [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv) to record weekly sales, gross profit, top-margin product, main buyer question, refund or closed-order reason, and one next-week action.
+
+For buyer questions, use [`docs/buyer-inquiry-log-template.md`](docs/buyer-inquiry-log-template.md) and [`samples/buyer-inquiry-log-sample.csv`](samples/buyer-inquiry-log-sample.csv) to record price objections, refund questions, sample requests, fit questions, and promised-result concerns before they disappear in chat history.
 
 ## What This Solves
 
@@ -75,6 +80,7 @@ The CSV sample includes fields for:
 - platform fee, product cost, and other cost
 - order status and delivery status
 - after-sales question and refund or cancellation reason
+- buyer inquiry question, reply angle, sample proof, follow-up risk, and review action
 - net sales, total cost, estimated gross profit, gross margin, and review action
 
 ## Full Excel Template Pack
@@ -92,6 +98,7 @@ The full Excel pack adds:
 - editable order ledger and cost inventory sheets
 - pricing calculator for low-ticket digital products
 - weekly review worksheet
+- buyer inquiry and pre-sale question review workflow
 - listing copy, delivery script, and after-sales reply templates
 
 中文说明：免费 Excel / CSV 样张用来试字段和基础公式，完整 Excel 包适合已经开始卖资料、想固定复盘订单、库存、定价和售后的人。
