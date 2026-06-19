@@ -6,6 +6,7 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 
 ## Download
 
+- Free order quick note tool: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xianyu-virtual-product-ledger-template.html
 - Free trial ZIP pack: https://github.com/Ronnie2025/xianyu-virtual-product-ledger-sample/releases/download/v2026.06.18-trial-pack/xianyu-ledger-free-trial-pack-20260618.zip
 - Free Excel sample: [`samples/xianyu-ledger-free-sample.xlsx`](samples/xianyu-ledger-free-sample.xlsx)
 - Free CSV sample: [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv)
@@ -27,22 +28,24 @@ A free Excel and CSV ledger sample for small digital product sellers. It is desi
 
 If you arrived from a CSV tools directory, start with the CSV file before looking at the full Excel pack:
 
-1. Download the trial ZIP pack if you want Excel, CSV, field guide, and preview in one folder.
-2. Download [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv) if you only need the raw CSV.
-3. Download [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv) if you want the weekly review row only.
-4. Download [`samples/buyer-inquiry-log-sample.csv`](samples/buyer-inquiry-log-sample.csv) if you want to record buyer questions before they buy.
-5. Fill one real order in the online CSV builder.
-6. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, buyer inquiry review, and delivery scripts.
+1. Use the free order quick note tool if you want to calculate platform fee, product cost, support time, refund reserve, gross profit, and gross margin before downloading files.
+2. Download the trial ZIP pack if you want Excel, CSV, field guide, and preview in one folder.
+3. Download [`samples/xianyu-ledger-sample.csv`](samples/xianyu-ledger-sample.csv) if you only need the raw CSV.
+4. Download [`samples/weekly-review-sample.csv`](samples/weekly-review-sample.csv) if you want the weekly review row only.
+5. Download [`samples/buyer-inquiry-log-sample.csv`](samples/buyer-inquiry-log-sample.csv) if you want to record buyer questions before they buy.
+6. Fill one real order in the online CSV builder.
+7. Only consider the full Excel template if you need dashboard, cost inventory, pricing calculator, weekly review, listing copy, buyer inquiry review, and delivery scripts.
 
 ## 5-Minute Trial
 
 Use the free Excel or CSV sample before buying anything:
 
-1. Fill in three real records: one paid order, one inquiry that did not convert, and one cancelled or refunded order.
-2. Add the hidden costs you usually ignore: platform fee, material cost, tool cost, extra explanation time, resend cost, or support cost.
-3. Look at the refund or cancellation reason, then write one review action for next week.
+1. Calculate one real order in the free order quick note tool, including platform fee, product cost, support minutes, and refund reserve.
+2. Fill in three real records: one paid order, one inquiry that did not convert, and one cancelled or refunded order.
+3. Add the hidden costs you usually ignore: platform fee, material cost, tool cost, extra explanation time, resend cost, or support cost.
+4. Look at the refund or cancellation reason, then write one review action for next week.
 
-You can also use the landing page's one-order CSV builder to enter a product name, sale price, platform fee rate, product cost, other cost, and order status. It generates one downloadable CSV row with net sales, total cost, estimated gross profit, gross margin, and a review action.
+You can also use the landing page's one-order CSV builder to enter a product name, sale price, platform fee rate, product cost, other cost, and order status. It generates one downloadable CSV row with net sales, total cost, estimated gross profit, gross margin, and a review action. The quick note tool is better when you also want to count support time and copy a buyer note before purchasing the full pack.
 
 中文试用方式：先填 3 条真实记录，不需要整理全部历史订单。只要能看清成交价、平台费、资料成本、售后问题、退款关闭原因和下一步动作，就说明这套字段适合你的虚拟资料小店。
 
